@@ -12,5 +12,6 @@ The engine code is MIT licenced. The story text (anything in game/story folder) 
 
 ## Building
 1. Download renpy and renpyweb if you wish to build for web. 7.5 (7.4-nightly as of writing) is supported.
-2. Add your own assets and story. `image_map_processed.py` contains a reference for images and music for the final FGO arcade singularity.
+2. Add your own assets and story. `image_map.py` contains a reference for images and music for the final FGO arcade singularity.
 3. As of May 2022 renpy does not have video support for web applications. This can be worked around with some patches (`00-WebBuilder.patch`, `01-Index.patch`) to a couple of renpy engine files - you will need to apply these manually to your version of renpy.
+4. Build via the renpy windows application.
