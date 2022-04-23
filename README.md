@@ -1,6 +1,6 @@
 # Lilim Harlot
 
-FGO Arcade visual novel made in [renpy 7.5](https://github.com/renpy/renpy). Available to play at (https://rayshift.io/lilim-harlot/).
+FGO Arcade visual novel made in [renpy 7.5](https://github.com/renpy/renpy). Available to play at https://rayshift.io/lilim-harlot/.
 
 <img src="https://i.imgur.com/7SeNglB.jpeg" />
 
