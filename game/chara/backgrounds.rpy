@@ -1,0 +1,52 @@
+image bg loading_01 = loading_images["10801"]
+image bg loading_02 = loading_images["10802"]
+image bg loading_03 = loading_images["10803"]
+image bg loading_04 = loading_images["10804"]
+image bg loading_05 = loading_images["10805"]
+image bg loading_06 = loading_images["10806"]
+image bg loading_07 = loading_images["10807"]
+image bg loading_08 = loading_images["10808"]
+
+image bg castle_01_day = background_images["castle_01_day"]
+image bg castle_01_night = background_images["castle_01_night"]
+image bg town_01 = background_images["town_01"]
+image bg field_01_night = background_images["field_01_night"]
+image bg field_01_dusk = background_images["field_01_dusk"]
+
+image bg boss_01 = background_images["boss_01"]
+image bg boss_01_full = background_images["boss_01_full"]
+image bg boss_02 = background_images["boss_02"]
+image bg boss_02_full = background_images["boss_02_full"]
+image bg boss_03 = background_images["boss_03"]
+image bg boss_03_full = background_images["boss_03_full"]
+image bg boss_04_full = background_images["boss_04_full"]
+
+image bg rome_dusk = background_images["rome_dusk"]
+image bg rome_night = background_images["rome_night"]
+image bg foggy_london = background_images["foggy_london"]
+image bg foggy_london_2 = background_images["foggy_london_2"]
+image bg stormy_seas = background_images["stormy_seas"]
+image bg stormy_seas_2 = background_images["stormy_seas_2"]
+image bg calm_seas = background_images["calm_seas"]
+image bg clear_london = background_images["clear_london"]
+image bg grail_mud = background_images["grail_mud"]
+
+image bg america_night = background_images["america_night"]
+image bg dustbowl_plains = background_images["dustbowl_plains"]
+image bg dustbowl_town = background_images["dustbowl_town"]
+image bg jerus_boss = background_images["jerus_boss"]
+image bg desert = background_images["desert"]
+image bg jerus_day = background_images["jerus_day"]
+
+image bg babylon_day = background_images["babylon_day"]
+image bg lilim_1 = background_images["lilim_1"]
+image bg lilim_2 = background_images["lilim_2"]
+
+image bg final_boss = background_images["final_boss"]
+
+image bg ending_m = background_images["ending_m"]
+image bg ending_f = background_images["ending_f"]
+#image bg chaldea = background_images["chaldea"]
+
+image bg ruins_day = background_images["ruins_day"]
+image white = "#ffffff"

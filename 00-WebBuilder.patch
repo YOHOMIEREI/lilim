@@ -1,0 +1,27 @@
+diff --git a/launcher/game/web.rpy b/launcher/game/web.rpy
+index 0763086..bdc2028 100644
+--- a/launcher/game/web.rpy
++++ b/launcher/game/web.rpy
+@@ -126,7 +126,7 @@ init python:
+             except KeyError:
+                 raise RuntimeError("Invalid rule '%s' at progressive_download.txt:%d" % (f_rule, line_no))
+ 
+-            if f_type not in ('image', 'music', 'voice'):
++            if f_type not in ('image', 'music', 'voice', 'video'):
+                 raise RuntimeError("Invalid type '%s' at progressive_download.txt:%d" % (f_type, line_no))
+ 
+             path_filters.append((f_rule, f_type, f_pattern))
+@@ -190,7 +190,12 @@ init python:
+ 
+             # Videos are currently not supported, strip them if not already
+             elif (ext.lower() in ('.ogv', '.webm', '.mp4', '.mkv', '.avi')):
+-                pass
++                zin.extract(m, path=destination)
++                remote_files[m.filename[len('game/'):]] = 'video -'
++            
++            
++            #elif (ext.lower() in ('.rpy') and "game/" in m.filename):
++            #    pass
+ 
+             # Default: keep (extract & recompress to new .zip)
+             else:
